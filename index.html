@@ -4,30 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,300;0,9..144,700;1,9..144,100&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500&family=Outfit:wght@700&display=swap" rel="stylesheet">
+
+
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
+  <div class="container">
+    <div class="flex-container-main">
+      <div class="flex-tag-info">
+        <h1 id="tagline" >Get <span id="tagline-highlite">insights </span> that help your business grow.</h1>
+        <p class="tagline-paragraph">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.</p>
+        <ul>
+          <li> <h2><span id="tag-stat1-bold">10k+</span></h2> <br> companies</li>
+          <li> <h2><span id="tag-stat2-bold">314</span></h2> <br> templates</li>
+          <li> <h2><span id="tag-stat3-bold">12m+</span></h2> <br> queries</li>
+        </ul>
+      </div>
+      <div class="flex-background-image">
+        <div class="flex-overlay"></div>
+      </div>
+    </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">J Brzozowski</a>.
   </div>
+  
+</div>
 </body>
 </html>
